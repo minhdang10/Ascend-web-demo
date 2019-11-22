@@ -1,7 +1,41 @@
+html,body{
+    width:100%;
+    height:100%;
+    /* text-align: center; */
+}
+
+#hero{
+    position: relative;
+    font-family:"Aguafina Script";
+}
+#bg{
+    position: absolute;
+    width:100vw;
+    height:100vh;
+    background-image: url("/Users/heronoop/Desktop/Ascend Baruch/W3/hoguom.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+#main_content{
+    position: relative;
+    text-align: center;
+    color: red;
+    top: 50vh;
+}
+
+#tint{
+    position: absolute;
+    width:100vw;
+    height:100vh;
+    background: rgb(0, 0, 0, 0.75); /*chìm ảnh*/
+}
+/*
 body{
     /*background:rgb(184, 129, 129);*/
     /* background: black; */
-    background-image: url('https://ewscripps.brightspotcdn.com/dims4/default/8550968/2147483647/strip/true/crop/640x360+0+60/resize/1280x720!/quality/90/?url=https%3A%2F%2Fmediaassets.wcpo.com%2Fphoto%2F2015%2F10%2F30%2Fhalloween_1446224583897_25991725_ver1.0_640_480.jpg');
+    /* background-image: url('https://ewscripps.brightspotcdn.com/dims4/default/8550968/2147483647/strip/true/crop/640x360+0+60/resize/1280x720!/quality/90/?url=https%3A%2F%2Fmediaassets.wcpo.com%2Fphoto%2F2015%2F10%2F30%2Fhalloween_1446224583897_25991725_ver1.0_640_480.jpg');
     font-size: 20px;
     text-align: center;
     color:white;
@@ -9,11 +43,11 @@ body{
     height:100%;
     margin: 0 0 0 0 !important;
     /* background-image: url('hoguom.jpg'); */
-    background-size: cover;
+    /* background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */ */
 
-}
+/* } */
 
 /* h1{
     color:purple;
@@ -30,7 +64,7 @@ body{
     color:yellow;
 } */
 
-#football{
+/* #football{
     width: 50vw;
 }
 #heading{
@@ -47,4 +81,13 @@ body{
 
 #navbar a{
     text-decoration: none;
+} */
+
+
+html,body{
+    width:100%;
+    height:100%;
+    text-align: center;
 }
+
+.navbar-expand
